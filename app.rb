@@ -10,14 +10,8 @@ get '/secret' do
   "super secret webpage"
 end
 
-get '/test' do
-  "does this work?"
-end
-
-get '/banana' do
-  "this is not a banana"
-end
-
-get '/lastone' do
-  "the last try"
+get '/cat' do
+  "<div style='border: 3px dashed red'>
+  <img src = 'http://bit.ly/1eze8aE'>
+  </div>"
 end
