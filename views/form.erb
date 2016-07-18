@@ -1,11 +1,9 @@
-<div style='border: 3px dashed red'>
-<img src = 'http://bit.ly/1eze8aE'>
-</div>
+
 
 <% if @name %>
 <h1>My name is <%=@name%></h1>
 <% else %>
-<form action="/named-cat">
+<form action="/named-cat" method="post">
     <label for="name">Name:</label>
     <input type="text" name="name" />
     <input type="submit" value="submit"/>
