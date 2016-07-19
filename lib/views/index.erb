@@ -8,6 +8,7 @@
     body {
       padding: 20px;
       font-family: 'Poiret One', cursive;
+      background-color: grey
     }
 
     h1 {
@@ -16,9 +17,8 @@
     }
 
     h2 {
-      margin-left: 180px;
+      margin-left: 50px;
       font-size: 50px;
-      color: green;
     }
 
     #catpic {
@@ -27,13 +27,14 @@
     }
 
   </style>
-
 </head>
 
 <body>
 
-  <h1 style=''>Cute kitty</h1>
-  <h2> <%= @name %> </h2>
+  <h2>My name is <%= @name %></h2>
 
-  <img id="catpic" src= 'http://bit.ly/1eze8aE'>
+  <div>
+    <img id="catpic" src= 'http://bit.ly/1eze8aE'>
+  </div>
+
 </body>

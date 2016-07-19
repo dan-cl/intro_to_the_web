@@ -1,0 +1,14 @@
+<% if @name %>
+  <form action="/named-cat" method="post">
+    <input type="hidden" name="name" value="<%=@name%>" />
+    <input type="submit" value="Click here to see my pic" />
+  </form>
+
+<% else%>
+  <div><form action="/named-cat" method="post">
+      <input type="text" name="name" />
+      <input type ="submit" value="submit" />
+    </form>
+  </div>
+
+<% end %>
